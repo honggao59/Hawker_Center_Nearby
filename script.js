@@ -53,7 +53,7 @@ async function main() {
             // setup event listeners
             document.querySelector('#search-btn').addEventListener('click', async ()=>{
                 let query = document.querySelector('#search-input').value;
-                let center = map.getBounds().getCenter();
+                // let center = map.getBounds().getCenter();
                 let results = await search(center.lat, center.lng, query);
                 let searchMarkers = [];
                 searchResultLayer.clearLayers();
