@@ -11,7 +11,7 @@ User's goal: To find the nearest Hawker Center based on their current location o
 
 
 ## Access
-Url to live site: https://
+Url to live site: https://honggao59.github.io/Hawker_Center_Nearby/
 
 ![Display sample on different devices](img/display-sample.png)
 
