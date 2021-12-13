@@ -13,7 +13,7 @@ User's goal: To find the nearest Hawker Center based on their current location o
 ## Access
 Url to live site: https://
 
-![Display sample on different devices upon loading](img/display-sample.PNG)
+![Display sample on different devices](img/display-sample.png)
 
 
 # Defining the Project
@@ -70,14 +70,14 @@ As a user, I want to:
 # Scope
 ## Functional Requirement
 ```
-Intreactive map to satisfy user need.
-User can enable his location and use it and find the nearest Hawker Center. 
-If User does not want to enable his location, he could also able to find the nearest Hawker Center by searching his location.
-User is able to find the name and address of the Hawker Center so he/she can share with others for where to dine. 
-User is able to start new searching by click the reset button back to the center of the map
-Mobile responsive to decides such as Phone, Tablet and Laptop.
-Use advance CSS/JavaScript to showcase proficiency. 
-``` 
+1. Intreactive map to satisfy user need.
+2. User can enable his location and use it and find the nearest Hawker Center.
+3. If User does not want to enable his location, he could also able to find the nearest Hawker Center by searching his location.
+4. User is able to find the name and address of the Hawker Center so he/she can share with others for where to dine.
+5. User is able to start new searching by click the reset button back to the center of the map
+6. Mobile responsive to decides such as Phone, Tablet and Laptop.
+7. Use advance CSS/JavaScript to showcase proficiency.
+```
 
 ## Non-Functional Requirement
 ```
@@ -87,27 +87,27 @@ NFR02. For security purpose, location of users should not be stored.
 
 ## Content Requirement
 ### Mandatory Requirement
-The list below contains the mandatory requirement for the site to meet all of the users goals (EUG01-05).
+The list below contains the mandatory requirement for the site to meet all of the users goals
 
 ```
-Interactive Map. (EUG01)
-Location finder. (EUG02)
-Distance calculator. (To calculate nearest Hawker Center) (EUG02) (EUG04)
-Information Table. (Static Dataset such as Address, Postal Code, Name) (EUG03)
-Search bar. (Search the location) (EUG04)
-Reset the map to the original view (EUG05)
+Interactive Map.
+1. Location finder.
+2. Distance calculator. (To calculate nearest Hawker Center)
+3. Information Table. (Static Dataset such as Address, Postal Code, Name)
+4. Search bar. (Search the location)
+5. Reset the map to the original view
 ```
 
 ### Optional Requirement
-The list below are optional requirements that can be implemented to enhance the site's feature. 
+The list below are optional requirements that can be implemented to enhance the site's feature.
 
 They may not be implemented due to various reasons. (Eg, authorisation, access to system/domains)
 
 ```
 Show the distance and route between the selected/current location and the nearest Hawker Center.
 Show the various food available for each Hawker Center.
-Show the time needed travel from the selected/current location to the nearest Hawker Center. 
-``` 
+Show the time needed travel from the selected/current location to the nearest Hawker Center.
+```
 
 # Structure
 ## Content Information
@@ -127,8 +127,8 @@ Name of the Hawker Center.
 ```
 Custom pins to denote each Hawker Center.
 Custom pin to denote current location when enabled.
-Buttons to represent and navigate to Hawker Center. 
-Buttons to reset to the original map view. 
+Buttons to represent and navigate to Hawker Center.
+Buttons to reset to the original map view.
 ```
 
 
@@ -145,7 +145,7 @@ Map Page:
         2) A button to search the location.
         3) A button to get the location of the user and show the nearest Hawker Center. 
         4) A button to reset to the original map view. 
-    
+
 
 
 # Skeleton
@@ -240,7 +240,7 @@ For map,
 
 For styling,
 * [Bootstrap](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
-* [Font Awesome]https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css
+* [Font Awesome](https://fontawesome.com/)
 
 For deployment,
 * [Github](https://github.com/)
