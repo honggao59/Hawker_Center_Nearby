@@ -88,7 +88,7 @@ function initMap() {
     let singapore = [1.3521, 103.8198];
     let map = L.map('map');
     map.setView(singapore, 12);
-    map.setMaxBounds(map.getBounds());
+    // map.setMaxBounds(map.getBounds());
     map.setMinZoom(11);
 
     // setup tilelayer
