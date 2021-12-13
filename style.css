@@ -1,0 +1,135 @@
+#map {
+    height: 100vh;
+    z-index: 1;
+}
+
+#map-container {
+    position: relative;
+}
+
+#search-container {
+    display: flex;
+    position: absolute;
+    z-index: 99999;
+    height: 60%;
+    width: 400px;
+    top: 5px;
+    left: -10px;
+    background-color: rgba(255,255,255,0.5);
+    padding-top: 0px;
+    /* min-width: 100px; */
+    padding-left: 25px;
+    /* display:none; */
+    border-radius: 10% 30% 50% 70%;
+    flex-direction: row;
+}
+
+
+.nav-bar{
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+    left: 2.5%;
+    z-index: 99;
+    min-width: 400px;
+    min-height: 50px;
+    width: 1195%;
+    background-color: rgba(255,255,255,0.5);
+    flex-direction: row;
+}
+
+.navbar-icon {
+    /* width: 35px;
+    height: 35px; */
+    width:100%;
+    height:100%;
+    /* margin-right: 35px; */
+    margin-left: -5px;
+}
+
+.navbar1-icon {
+    /* width: 35px;
+    height: 35px; */
+    width:100%;
+    height:100%;
+    /* margin-right: 35px; */
+    margin-left: -45px;
+}
+
+.nav-btn{
+    text-align: center;
+}
+
+#search-btn {
+    margin-left: 10px;
+}
+
+#search-results {
+    max-height: 300px;
+    /* overflow-y:scroll; */
+}
+
+#toggle-search-btn {
+    flex-direction: row;
+    position: absolute;
+    left: 15px;
+    top: -30px;
+    width: 130px;
+    z-index: 99999;
+    display:none
+}
+
+#search-btn:hover{
+    transform:scale(1.3);
+}
+
+.navbar-icon:hover{
+    transform:scale(1.6);
+}
+
+.navbar1-icon:hover{
+    transform:scale(1.3);
+}
+/* for desktop */
+@media screen and (min-width: 768px) {
+    #search-container {
+        display: block;
+        display: flex;
+    }
+
+    #toggle-search-btn {
+        display:none;
+    }
+
+    .nav-bar{
+        display: flex;
+        top:0%;
+        bottom: auto;
+        left:20%;
+        width:65%;
+        max-width: 600px;
+        border-radius: 10% 30% 50% 70%;
+        flex-direction: row;
+    }
+
+    .navbar-icon {
+        width: 40px;
+        height: 40px;
+        /* width:100%;
+        height:100%; */
+        /* margin-right: 35px; */
+        margin-left: 35px;
+    }
+
+    .navbar1-icon {
+        width: 40px;
+        height: 40px;
+        /* width:100%;
+        height:100%; */
+        /* margin-right: 35px; */
+        margin-left: 50px;
+    }
+
+
+
+}
